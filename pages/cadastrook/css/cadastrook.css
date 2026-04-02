@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,14 +12,7 @@ body {
     height: 100vh;
     display: grid;
     justify-content: center;
-    font-family: 'Volkhov', serif;
-}
-
-.logo {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 75px; 
+    font-family: 'Inter', sans-serif;
 }
 
 .cadastrook {
@@ -57,5 +52,4 @@ h1 {
     border-radius: 20px;
     border-color:#F72585;
     justify-self: center;
-    font-family: 'Volkhov', serif;
 } 
