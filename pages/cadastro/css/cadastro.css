@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+}
+
+.cadastro {
+    display: grid;
+    justify-items: center;
+    align-self: center;
+    align-content: center;
+    border-radius: 30px;
+    height: 480px;
+    width: 1050px;
+    padding: 30px;
+    background: rgb(88,130,193,0.64);
+    text-align: center;
+}
+
+.bemvindo{
+    font-family: 'Volkhov', serif;
+    color: white;
+    font-size: 35px;
+    width: 801px;
+    height: 58px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -2%;
+}
+
+.input-login{
+    color: #000000
+}
+.input-senha{
+    color: #000000;
+}
+
+.botao {
+    width: 375px;
+    height: 43px;  
+    background-color: #F72585;
+    color: white;
+    border-radius: 20px;
+    border-color:#F72585;
+    justify-self: center;
+    font-family: 'Volkhov', serif;
+    font-size: 18px
+} 
+
+.botaodois{
+    width: 375px;
+    height: 43px;  
+    background-color: #F72585;
+    color: white;
+    border-radius: 20px;
+    border-color:#F72585;
+    justify-self: center;
+    font-family: 'Volkhov', serif;
+    font-size: 18px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    margin-top: 115px;
+}
+
+.form{
+    display: grid;
+    text-align: left;  
+    justify-items: center;
+}
+
+.input-login{
+    font-size: 20px;
+    transform: translateY(60px);
+}
+
+.label{
+    display: grid;
+    margin-left: 12px;
+}
+
+.input-login > input{
+  width: 500px;
+  height: 45px;
+  border-radius: 15px;
+  margin: 7px;
+}
